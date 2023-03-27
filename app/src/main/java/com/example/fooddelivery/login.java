@@ -50,7 +50,12 @@ public class login extends AppCompatActivity {
 				if(inputEmail.getText().toString().isEmpty() || inputPassword.getText().toString().isEmpty()){
 					Toast.makeText(login.this, "Enter Valid Information.", Toast.LENGTH_SHORT).show();
 				} else if (inputEmail.getText().toString().equals("admin@cutm.com") && inputPassword.getText().toString().equals("admin")) {
+					Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
 					startActivity(new Intent(login.this, home.class));
+					finish();
+				}
+				else {
+					Toast.makeText(login.this, "Enter Correct Information.", Toast.LENGTH_SHORT).show();
 
 				}
 			}
