@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     tools:context=".SpalsScreen">
 
     <ImageView
@@ -23,15 +22,16 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-50dp"
+        android:layout_marginTop="76dp"
         android:fontFamily="@font/aguafina_script"
         android:rotation="-16"
         android:text="Order Now"
         android:textAlignment="center"
-        android:textColor="#FBFBFB"
+        android:textColor="@color/colorPrimary"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -40,13 +40,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="-10dp"
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/aguafina_script"
         android:rotation="-16"
         android:text="Your Favorite Dish"
         android:textAlignment="center"
-        android:textColor="#FBFBFB"
+        android:textColor="@color/colorPrimary"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
