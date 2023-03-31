@@ -15,15 +15,15 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 	ImageButton conti;
 	FirebaseAuth mAuth;
-	@Override
-	public void onStart() {
-		super.onStart();
-		// Check if user is signed in (non-null) and update UI accordingly.
-		FirebaseUser currentUser = mAuth.getCurrentUser();
-		if(currentUser != null){
-			startActivity(new Intent(MainActivity.this, home.class));
-		}
-	}
+//	@Override
+//	public void onStart() {
+//		super.onStart();
+//		// Check if user is signed in (non-null) and update UI accordingly.
+//		FirebaseUser currentUser = mAuth.getCurrentUser();
+//		if(currentUser != null){
+//			startActivity(new Intent(MainActivity.this, home.class));
+//		}
+//	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

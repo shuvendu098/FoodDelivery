@@ -26,14 +26,14 @@ public class signup extends AppCompatActivity {
 	EditText editEmail,editPassword;
 	Button signup;
 	ImageView signgoogle;
-	@Override
-	public void onStart() {
-		super.onStart();
-		FirebaseUser currentUser = mAuth.getCurrentUser();
-		if(currentUser != null){
-			startActivity(new Intent(signup.this, home.class));
-		}
-	}
+//	@Override
+//	public void onStart() {
+//		super.onStart();
+//		FirebaseUser currentUser = mAuth.getCurrentUser();
+//		if(currentUser != null){
+//			startActivity(new Intent(signup.this, home.class));
+//		}
+//	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
